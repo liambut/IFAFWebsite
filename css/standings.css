@@ -1,0 +1,47 @@
+  .ptable table{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #E6E6E6;
+}
+
+.ptable{
+
+}
+
+th, td {
+  padding: 10px;
+  font-family: Fjalla One;
+  font-size: 1.5em;
+  border: 2px solid #E6E6E6;
+}
+
+th{
+  background-color:#181818;
+  color: #c2a25d;
+}
+
+.headin{
+  text-align: center;
+  text-decoration: none;
+  color: #c2a25d;
+  margin: 30px;
+  display: block;
+}
+
+.pos{
+  text-align: center;
+  border: 2px solid #E6E6E6;
+}
+
+.pos td{
+  color: #E6E6E6;
+}
+
+table .col{
+  border: 2px solid #E6E6E6;
+}
+
+ .pos:nth-child(even) {
+   background-color: #30814c;
+   color: #E6E6E6;
+ }

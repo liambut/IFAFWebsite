@@ -1,0 +1,253 @@
+.header{
+  overflow: hidden;
+  background-color: #E6E6E6;
+  padding: 2% 0 2% 0;
+  height: auto;
+  max-height: none;
+}
+.links{
+  margin-left: 8em;
+  margin-right: 0.6em;
+  margin-top: 0.8em;
+  padding: 0 0 0 0;
+}
+.header-left img {
+  display: inline-block;
+  padding: 0 0 0 1em;
+  height:auto;
+  width: 60%;
+  margin: auto;
+}
+@media(max-device-width: 768px) {
+  /* For mobile phones: */
+  .header-left img {
+    width: 100%;
+  }
+  .mid-right{
+    padding: 0 0.5em 0 0.5em;
+  }
+  .mid-left{
+    padding: 0 0.5em 0 0.5em;
+  }
+  .links{
+    margin-left: 2em;
+    margin-right: 0.8em;
+    margin-top: 0.8em;
+  }
+}
+.header-left{
+  float: left;
+  text-align: left;
+  width: 50%;
+  padding: 0 0 0 1em;
+}
+body::-webkit-scrollbar{
+}
+body{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+h1{
+  text-align: center;
+  color: #c2a25d;
+}
+.formup{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2%;
+  text-align: left;
+}
+.posholder{
+
+}
+.form-submit-button {
+  font-size: 2em;
+  text-shadow: none;
+}
+.menu a{
+  color: #30814c;
+  padding: 0 2%;
+  text-decoration: none;
+}
+.header-right{
+  width: 50%;
+  display: flex;
+  justify-content: right;
+  color: #30814c;
+  font-size: 2.5em;
+}
+.header a:hover {
+  color: #c2a25d;
+}
+.mid{
+  color: #E6E6E6;
+  overflow: hidden;
+  background-color: #181818;
+  padding: 2% 2%;
+  font-size: 180%;
+  text-align: center;
+  border: 2px solid #E6E6E6;
+}
+a.anchor {
+  display: block;
+  position: relative;
+}
+.mid-left{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+.mid a{
+  text-decoration: none;
+  color: #1F487E;
+}
+.mid-right{
+  text-align: left;
+  float: right;
+  width: 50%;
+}
+.mid a:hover {
+  background-color: #ffb715;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 17%;
+  /*background-color: #30814c;*/
+  background-image: url('../img/celt.png');
+}
+.footer{
+  overflow: hidden;
+  background-color: #640207;
+  padding: 2% 0;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+* {box-sizing:border-box}
+
+details{
+  background-color: #30814c;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+details a{
+  color:  #c2a25d !important;
+}
+details a:hover{
+  color:  #fff !important;
+  background-color: #c2a25d !important;
+}
+summary {
+  padding: .5em 1.3rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  transition: height 1s ease;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary:after{
+  content: "\002B";
+}
+
+details[open] summary {
+  border-bottom: 1px solid #aaa;
+  margin-bottom: .5em;
+}
+
+details[open] summary:after{
+  content: "\00D7";
+}
+
+details[open] div{
+  padding: .5em 1em;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.staff-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:  wrap;
+  margin-top: 70px;
+}
+.single-staff {
+  max-width: 10em;
+  width: 100%;
+  background: #30814c;;
+  text-align: center;
+  position: relative;
+  padding: 0 0 20px;
+  margin: 0px 50px 30px 50px;
+}
+.single-staff:before{
+  position: absolute;
+  content: "";
+  width: 95px;
+  height: 105px;
+  top: -20px;
+  left: -20px;
+  background: black;
+  z-index: -1;
+}
+.single-staff:after{
+  position: absolute;
+  content: "";
+  width: 95px;
+  height: 105px;
+  bottom: -20px;
+  right: -20px;
+  background: black;
+  z-index: -1;
+}
+.staff-info {
+  padding: 20px 15px 0 20px;
+}
+.single-staff img {
+  height: 14em;
+  object-fit: cover;
+  width: 10em;
+  display: block;
+}
+.fst-name {
+  display: block;
+  color:  #c2a25d;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.lst-name {
+  display: block;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.game-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  color: #181818;
+  padding: 10px;
+}
+.teams {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.team-logo {
+  max-width: 40px;
+  max-height: 40px;
+}
+
