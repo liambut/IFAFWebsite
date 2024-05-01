@@ -10,12 +10,12 @@ try {
   $mail->Host       = "smtp-mail.outlook.com"; // SMTP server
   $mail->SMTPSecure = 'ssl';              // Enable SSL encryption;
   $mail->Port       = 465;                // port to connect to, use 587 for 'tls'
-  $mail->Username   = 'liampb@outlook.com'; // SMTP username
-  $mail->Password   = 'S8michaels8C';           // SMTP password
+  $mail->Username   = ''; // SMTP username
+  $mail->Password   = '';           // SMTP password
 
-  $mail->SetSender("liampb@outlook.com","Your Name");
+  $mail->SetSender("","Your Name");
 
-  $mail->AddRecipient("liampb@outlook.com","Friend Name"); // Who you are sending to
+  $mail->AddRecipient("","Friend Name"); // Who you are sending to
 
   $mail->Subject    = "First worx Mailer Message";
   $mail->Message       = "Hi! \n\n This is my first email sent through worx Mailer.";
