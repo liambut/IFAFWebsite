@@ -1,5 +1,5 @@
  <?php
-   $connection = mysqli_connect("localhost", "root", "aFHlE/sN8Z,5", "flag");
+   $connection = mysqli_connect("localhost", "root", "", "flag");
    $query = "SELECT * FROM games WHERE completed = 'Scheduled' ORDER BY start DESC;";
    $oldboxcat = "09:00:00";
    $boxcount = 2;
