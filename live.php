@@ -1,5 +1,5 @@
  <?php
-   $connection = mysqli_connect("localhost", "root", "aFHlE/sN8Z,5", "flag");
+   $connection = mysqli_connect("localhost", "root", "", "flag");
    $query = "SELECT * FROM games WHERE completed = 'Live' ORDER BY start DESC;";
 if ($result = $connection -> query($query)) {
     while ($row = $result -> fetch_row()) {
